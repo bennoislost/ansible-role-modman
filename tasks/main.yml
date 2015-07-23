@@ -1,0 +1,7 @@
+---
+- name: Download modman
+  get_url:
+    url: "{{ bennoislost_modman_download_url }}"
+    dest: "{{ bennoislost_modman_bin_path }}"
+    mode: 0755
+  when: bennoislost_modman_enabled

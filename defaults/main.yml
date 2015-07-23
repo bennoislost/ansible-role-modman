@@ -1,0 +1,4 @@
+---
+bennoislost_modman_enabled: true
+bennoislost_modman_download_url: "https://raw.githubusercontent.com/colinmollenhour/modman/master/modman"
+bennoislost_modman_bin_path: "/usr/bin/modman"
